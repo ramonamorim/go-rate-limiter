@@ -52,10 +52,14 @@ O projeto está estruturado da seguinte forma:
 
 ## Testes
 
-- Use o `curl` para enviar requisições e validar o comportamento do Rate Limiter.
-- Exemplo de teste:
+- Use o `curl` ou importe o `curl` para o Postman para enviar requisições e validar o comportamento do Rate Limiter.
+- Exemplo de teste sem token:
   ```sh
   curl -X GET http://localhost:8080/
+  ```
+- Exemplo de teste com token:
+  ```sh
+  curl -H "API_KEY: seu_token" http://localhost:8080/
   ```
 - Verifique se as requisições são bloqueadas ao exceder o limite configurado.
 - Testes:
