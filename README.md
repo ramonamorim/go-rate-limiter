@@ -1,4 +1,4 @@
-# go-rate-limite: Desafio Rate Limiter
+# go-rate-limiter: Desafio Rate Limiter
 
 Este projeto desenvolve um sistema de Rate Limiting em Go para limitar a quantidade de requisições que um serviço pode receber em um determinado período. A ideia é ajudar a controlar o tráfego, evitar sobrecarga no servidor e garantir mais segurança e estabilidade para o sistema.
 
